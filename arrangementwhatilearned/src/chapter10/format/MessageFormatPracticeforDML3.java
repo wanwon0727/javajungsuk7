@@ -14,7 +14,7 @@ public class MessageFormatPracticeforDML3 {
 		String pattern = "{0}, {1}, {2}, {3}";
 		MessageFormat mf = new MessageFormat(pattern);
 		
-		while(s.hasNextLine()){
+		while(s.hasNextLine()){//j
 			String line = s.nextLine();
 			Object[] objs = mf.parse(line);
 			System.out.println(MessageFormat.format(msg, objs));
