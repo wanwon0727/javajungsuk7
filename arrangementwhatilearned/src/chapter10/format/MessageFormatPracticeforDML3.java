@@ -12,7 +12,7 @@ public class MessageFormatPracticeforDML3 {
 		Scanner s = new Scanner(new File(fileName));
 		
 		String pattern = "{0}, {1}, {2}, {3}";
-		MessageFormat mf = new MessageFormat(pattern);//Ffff
+		MessageFormat mf = new MessageFormat(pattern);//
 		
 		while(s.hasNextLine()){//j
 			String line = s.nextLine();
