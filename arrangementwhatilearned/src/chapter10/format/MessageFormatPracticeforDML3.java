@@ -8,7 +8,7 @@ public class MessageFormatPracticeforDML3 {
 	public static void main(String[] args) throws Exception{
 		String tableName = "CUST_INFO";
 		String fileName = "data4.txt";
-		String msg = "INSERT INTO "+ tableName + " VALUES ({0}, {1}, {2}, {3});";// ±Í«„∫Í77
+		String msg = "INSERT INTO "+ tableName + " VALUES ({0}, {1}, {2}, {3});";// ±Í«„∫Í777
 		Scanner s = new Scanner(new File(fileName));
 		
 		String pattern = "{0}, {1}, {2}, {3}";
