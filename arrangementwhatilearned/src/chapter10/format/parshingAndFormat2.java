@@ -20,7 +20,7 @@ public class parshingAndFormat2 {
 		System.out.println(date);
 		System.out.println(time);
 		System.out.println(dateTime);
-		//System.out.println(endOfYear);
+		System.out.println(endOfYear);
 
 	}
 
